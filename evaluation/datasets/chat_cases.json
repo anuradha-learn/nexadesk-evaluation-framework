@@ -1,0 +1,11 @@
+[
+  {
+    "id": "CHAT-001",
+    "name": "Password reset",
+    "question": "How can I reset my Nexa Group account password?",
+    "expected_category": "it_access",
+    "expected_answer_keywords": [
+      "password"
+    ]
+  }
+]
