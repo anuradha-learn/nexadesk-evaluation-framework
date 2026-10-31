@@ -17,6 +17,7 @@ DATASET_PATH = (
 with DATASET_PATH.open(encoding="utf-8") as file:
     TEST_CASES = json.load(file)
 
+@pytest.mark.live
 
 @pytest.mark.parametrize(
     "test_case",
